@@ -8,6 +8,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 Not released
 
 * 🐛🔨 Add customizable input name for trix-editor in simple form ([#12](https://github.com/kylefox/trix/pull/12)). Thanks [@ptrr](https://github.com/ptrr)!
+* 💪 Modify Gemspec to support Rails 6 ([#17](https://github.com/kylefox/trix/pull/17)). Thanks [@king601](https://github.com/king601)!
 
 ## 2.0.0
 
