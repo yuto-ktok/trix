@@ -6,7 +6,9 @@ Want to include Basecamp's awesome [Trix WYSIWYG
 editor](http://trix-editor.org) in your Ruby on Rails application?
 You've come to the right place!
 
-Compatible with Rails 4.2 and up.
+Compatible with Rails 5.0 and up.
+
+_Note: trix-rails 2.x is technically compatible with Rails 4.2 and up, but is no longer tested or maintained. Support for < Rails 5.0 will be dropped in trix-rails 3.x_
 
 # Installation
 
