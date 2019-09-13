@@ -6,8 +6,14 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## Master
 
 Not released
+
+## 2.2.0
+
+Released September 13, 2019
+
 * ✅ Upgrade to [Trix 1.2.0](https://github.com/basecamp/trix/releases/tag/1.2.0)
-* 💪 Bump to version 2.2.0 
+* 💪 Bump to version 2.2.0
+* 🚫 Remove appraisals for Rails 4.2 (support will be removed in trix-rails 3.x)
 
 ## 2.1.0
 
