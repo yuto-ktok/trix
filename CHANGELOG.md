@@ -6,6 +6,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## Master
 
 Not released
+* ✅ Upgrade to [Trix 1.2.0](https://github.com/basecamp/trix/releases/tag/1.2.0)
+* 💪 Bump to version 2.2.0 
 
 ## 2.1.0
 
@@ -13,6 +15,7 @@ Released September 9, 2019
 
 * 🐛🔨 Add customizable input name for trix-editor in simple form ([#12](https://github.com/kylefox/trix/pull/12)). Thanks [@ptrr](https://github.com/ptrr)!
 * 💪 Modify Gemspec to support Rails 6 ([#17](https://github.com/kylefox/trix/pull/17)). Thanks [@king601](https://github.com/king601)!
+* 💪 Bump to version 2.1.0
 
 ## 2.0.0
 
