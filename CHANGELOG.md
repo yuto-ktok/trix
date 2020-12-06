@@ -9,6 +9,8 @@ Not released
 
 - ✅ Relax gemspec for Rails 6.1 and higher offical release.
 - ✅ Add Appraisal configration for Rails 6.1.
+- ✅ Upgrade to [Trix 1.3.1](https://github.com/basecamp/trix/releases/tag/1.3.1)
+- 💪 Bump to version 2.3.0
 
 
 ## 2.2.0
