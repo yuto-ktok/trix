@@ -7,6 +7,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 Not released
 
+- ✅ Relax gemspec for Rails 6.1 and higher offical release.
+- ✅ Add Appraisal configration for Rails 6.1.
+
+
 ## 2.2.0
 
 Released September 13, 2019
