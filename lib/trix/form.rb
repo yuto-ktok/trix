@@ -32,16 +32,19 @@ module ActionView
 
         def render
           options = @options.stringify_keys
+          #options['input'] ||= dom_id(object, [options['id'], :trix_input].compact.join('_'))
+          options['value'] = options.fetch('value') { value_before_type_cast(object) }
           add_default_name_and_id(options)
-          options['input'] ||= dom_id(object, [options['id'], :trix_input].compact.join('_'))
+          trix_editor_tag(options.delete('name'), options['value'], options)
 
-          value = if Rails.gem_version >= Gem::Version.new('5.2.x')
-                    options.delete('value') { value_before_type_cast }
-                  else
-                    value_before_type_cast(object)
-                  end
-
-          trix_editor_tag(options.delete('name'), value, options)
+          # NOTE: valueがうまく入らないため修正
+          # (参) https://github.com/kseki/trix/commit/902b83d80153cf2c783ec455b1528d79f56bc250
+          # value = if Rails.gem_version >= Gem::Version.new('5.2.x')
+          #           options.delete('value') { value_before_type_cast }
+          #         else
+          #           value_before_type_cast(object)
+          #         end
+          # trix_editor_tag(options.delete('name'), value, options)
         end
       end
     end
